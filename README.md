@@ -8,7 +8,7 @@ RPM = (steps per second)/(steps per revolution) * (60 seconds/minute)
 step angle = 1.8 degrees ; 200 steps per revolution ; .005 revolutions per step  
 Solving for Steps Per Second: SPS = (RPM)/((REV_P_STEP)*(60 sec/min))  
 
-According to John Craig:  
+Equation for Determining Spin Speed:  
   C0 = 15 * M_PI ; Motor X Circumference  
   XSPR = 1 * (200 * 11) ; Motor X Steps per Rotation  
   dVx = dS * (XSPR/C0) ; Desired X-Axis time from mm/s to x-axis steps/sec (dS represents desired x-axis speed)  
