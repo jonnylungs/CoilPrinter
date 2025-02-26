@@ -1,4 +1,4 @@
-# Code for coil printing device of vascular grafts, along with circuit diagram**
+# Code for Coil Printing Device of Vascular Grafts, Along with Circuit Diagram
 ### Cosgriff-Hernandez Laboratory; UT-Austin Biomedical Engineering**
 
 ***
