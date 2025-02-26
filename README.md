@@ -1,6 +1,14 @@
 # Code for coil printing device of vascular grafts, along with circuit diagram**
 ### Cosgriff-Hernandez Laboratory; UT-Austin Biomedical Engineering**
 
+***
+__Usage of Buttons To Run the Device: (From Left to Right; Shown on Schematic)__   
+Button 1: Increase Rotational Extruder Speed (rpm)  
+Button 2: Decrease Rotational Extruder Speed (rpm)  
+Button 3: Switch Direction of Extruder  
+Button 4: Move the Extruder  
+***
+
 __Formulas for determining RPM__   
 Assuming one step per pulse, delay is: wait = (μs/min) * (1/rpm) * (1/pulses per revolution) - overhead  
 Overhead = extra time it takes to run digitalWrite twice and loop  
@@ -8,7 +16,7 @@ RPM = (steps per second)/(steps per revolution) * (60 seconds/minute)
 step angle = 1.8 degrees ; 200 steps per revolution ; .005 revolutions per step  
 Solving for Steps Per Second: SPS = (RPM)/((REV_P_STEP)*(60 sec/min))  
 
-Equation for Determining Spin Speed:  
+__Equation for Determining Spin Speed:__   
   C0 = 15 * M_PI ; Motor X Circumference  
   XSPR = 1 * (200 * 11) ; Motor X Steps per Rotation  
   dVx = dS * (XSPR/C0) ; Desired X-Axis time from mm/s to x-axis steps/sec (dS represents desired x-axis speed)  
